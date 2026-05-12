@@ -17,7 +17,7 @@ print("My favorite sport is " + sport)
 food = input("What is your favorite food? ")
 print("My favorite food is " + food)
 # Ask user for a favorite movie and save it in a variable
-movie = input("What is your favorite movie? ")
+movie = input("What is your favorite movie? ") 
 print("My favorite movie is " + movie)
 # Ask user for  a favorite song and save it in a variable
 song = input("What is your favorite song? ")
