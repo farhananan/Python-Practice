@@ -24,6 +24,7 @@ print("Your student email is:", last_name + first_name + id + "@wsc.school.nz")
 
 # EXTENSION
 # Create a temporary password to output as well
+print("Your temporary password is:", first_name.upper() + str(int(id) // 10) + last_name.upper())
 # It should be their names in all uppercase and their id divided by 10
 
 # --------------------------------
