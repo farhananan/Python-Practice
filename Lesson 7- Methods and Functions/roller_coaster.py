@@ -12,12 +12,11 @@ if age > 10 and height > 150:
     print ("Do you have a heart condition? (y/n)")
     if input() == "y":
         print("Sorry, you cannot ride.")
-        if input() == "n"
+    else:
            print ("Do you have a VIP pass? (y/n)")
-        if input() == "y":
+    if input() == "y":
             print("Access granted! Enjoy the ride!")
-            if input() == "n":
-    print("Sorry, you cannot ride.")
+            
 
 
 

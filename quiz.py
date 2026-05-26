@@ -1,7 +1,7 @@
-print("Hi there! Below is a 8 question quiz that you can answer to introduce yourself. The quiz will ask you for your name, favorite animal, color, place, sport, food, movie and song. At the end it will print a madlib using all of your answers. Enjoy!")
+print("Hi there! Below is a 8 question quiz that you can answer to introduce yourself.Enjoy!")
 # Ask user for a name and save it in a variable
 name = input("What is your name? ")
-print("My name is " + name)
+print("My name is " + name.upper())
 # Ask user for an animal and save it in a variable
 animal = input("What is your favorite animal? ")
 print("My favorite animal is " + animal)
