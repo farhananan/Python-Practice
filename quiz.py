@@ -5,5 +5,10 @@ print("My name is " + name.upper())
 print("Do you like to Watch Movies?")
 print("a) Yes")
 print("b) No")
-if input() == "a":
-    print("")
+if input() == "a or Yes":
+    print("What is your favourite movie genre?")
+else: print("Bad...")
+
+
+
+

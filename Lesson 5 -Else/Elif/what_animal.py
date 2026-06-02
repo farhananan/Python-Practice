@@ -4,7 +4,7 @@
 # __________________________
 
 # Write a 'what animal are you' quiz. 
-print("Welcome to the 'What animal are you?' quiz! Answer the following questions to find out which animal is most like you!")
+print("Welcome to the 'What animal are you?' quiz! Answer the following questions to find out which animal is most like you! and make sure to answer in (a) or (b)")
 # You can base this on the picture from last lesson, but make it simpler - 
 # 3 questions and 4 animals.
 # Ask your user a question about themselves, giving them 2 options
