@@ -1,7 +1,7 @@
-
-print ("Welcome to the age checker! Please enter your age:")
-age = int(input())
-if age == 11 or age == 12:
-    print('Access granted')
-else: print('Access denied')
+guess = input('What’s the password?')
+print('Checking password is a match…')
+while guess != 'kimikimi':
+ guess = input('Try again')
+ print('Checking password is a match…')
+input('Welcome!')
 
