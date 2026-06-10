@@ -7,27 +7,16 @@
 # VARIABLES
 # TODO Create a variable for valid input and set it to false
 valid_input = False
-# GET INPUT
-# TODO Start a loop while the input is invalid
+
 while not valid_input:
-
-    # TODO Ask the user for their age and save it
     age = input("Please enter your age; ")
-
-    #TRY
-    # TODO Create a try statement
-try:
+    try:
        num = int(age)
-
-        # TODO Change the input into an integer and resave it
-
-        # TODO Set the valid input variable to true
        valid_input = True
-
-    # FAIL TO CONVERT TO INTEGER
-    # TODO Add an except statement
-except:
+    except:
      print(f'{age} is not a number')
+
+     
     # TODO Tell the user their input was invalid
 
 # Unindented = Loop has finished so the input must be valid now
