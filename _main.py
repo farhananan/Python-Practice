@@ -1,7 +1,10 @@
-guess = input('What’s the password?')
-print('Checking password is a match…')
-while guess != 'kimikimi':
- guess = input('Try again')
- print('Checking password is a match…')
-input('Welcome!')
+shopping_list = ['apples','plums','pizza']
+print('apples' in shopping_list)
+print('a' in 'definitely')
+user_input = input()
+if user_input.lower() in['a','b','c','d']:
+	print('Checking answer…')
+else:
+	print('That’s not a valid answer!')
+
 
