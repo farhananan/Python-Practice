@@ -9,7 +9,7 @@ if answer == "wellington":
     score += 1
 else:
     print("Incorrect! The answer is Wellington.")
-
+#If they dont say Wellingon, then it will say incorrect
 # Question 2
 answer = input("2. Which is the largest continent in the world? ").lower()
 if answer == "asia":
@@ -74,12 +74,13 @@ if score == 8:
     print("Amazing! Perfect score!")
 elif score >= 6:
     print("Great job!")
+    print("Try Again!! and see if you can get a higher score")
 elif score >= 4:
     print("Not bad!")
+    print("Try Again!! and see if you can get a higher score")
 else:
     print("Keep practicing your geography!")
-
-
+    print ("Try Again!! and see if you can get a higher score")
 
 
 
